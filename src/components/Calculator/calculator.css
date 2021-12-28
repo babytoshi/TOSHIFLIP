@@ -1,0 +1,147 @@
+.calculator {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+.calculator-h2 {
+  font-size: 30px;
+}
+
+.calculator-title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.calculator-token-img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.volume-div {
+  width: auto;
+  box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  margin-bottom: 100px;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.holding-div {
+  width: auto;
+  box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  margin-bottom: 100px;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.holding-div label {
+  font-size: 20px;
+  color: #1493ef;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#holdingAmount {
+  border: none;
+  width: 50%;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.estimated-div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.estimated-solo-div h5 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.estimated-dollar {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.estimated-rewards-div {
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.estimated-rewards-div img {
+  width: 20px;
+}
+.estimated-rewards-div span {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .calculator-h2 {
+    font-size: 20px;
+  }
+
+  .calculator-token-img {
+    margin-right: 10px;
+    width: 25px;
+  }
+  .volume-div {
+    margin-bottom: 40px;
+  }
+
+  .volume-div span {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .holding-div {
+    margin-bottom: 40px;
+  }
+
+  #holdingAmount {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .holding-div label {
+    font-size: 10px;
+    color: #1493ef;
+  }
+
+  .estimated-div {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .estimated-solo-div {
+    margin-bottom: 60px;
+  }
+}
