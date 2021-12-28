@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'PhosphateRR Solid';
+    src: local('PhosphateRR Solid'), url('./fonts/PhosphateRR Solid.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+    font-family: 'PhosphateInline';
+    src: local('PhosphateInline'), url('./fonts/PhosphateInline.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+@font-face {
+    font-family: 'PhosphateSolid';
+    src: local('PhosphateSolid'), url('./fonts/PhosphateSolid.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+.specialToshi{
+    font-family: 'PhosphateInline', Arial, serif;
+}
