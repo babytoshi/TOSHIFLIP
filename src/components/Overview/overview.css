@@ -1,0 +1,29 @@
+.overview {
+  margin: auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  width: 60%;
+  height: 100%;
+}
+
+.right-container {
+  width: 38%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .overview {
+    display: block;
+  }
+  .left-container {
+    width: auto;
+  }
+  .right-container {
+    width: auto;
+    height: auto;
+  }
+}

@@ -1,0 +1,42 @@
+.yourBalance {
+  box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: -1px 12px 56px -25px rgba(0, 0, 0, 0.61);
+  border-radius: 15px;
+  /* width: 100%; 
+  padding-top: 10px;
+  padding-bottom: 20px;
+  */
+  text-align: center;
+  /* margin-bottom: 60px; */
+}
+
+.textDiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.textKey {
+  color: #1493ef;
+  font-weight: 700;
+}
+
+.amountValue {
+  font-weight: 500;
+  display: flex;
+}
+
+.tokenLogo {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .yourBalance {
+    font-size: x-small;
+  }
+}
