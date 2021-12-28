@@ -1,0 +1,19 @@
+.pending-bet-h2 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.pending-bet-text {
+  color: #f7931a;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .pending-bet-h2 {
+    font-size: 15px;
+  }
+  .pending-bet-text {
+    font-size: 12px;
+  }
+}

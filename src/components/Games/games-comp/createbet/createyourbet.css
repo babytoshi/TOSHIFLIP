@@ -1,0 +1,131 @@
+.create-bet-h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.create-bet-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #1493ef;
+  font-weight: 700;
+}
+
+.create-btn-div {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.head-btn {
+  font-family: "Montserrat";
+  background-color: #1493ef;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.tail-btn {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.img-div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-span {
+  margin-right: 10px;
+}
+
+.img-logo {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.number-token-input {
+  border: none;
+  width: 80%;
+  font-family: "Montserrat";
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.342);
+}
+
+.confirm-create-bet-btn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  background-color: #1493ef;
+  cursor: pointer;
+}
+
+.select-currency-bet {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .create-bet-h2 {
+    font-size: 15px;
+  }
+
+  .create-bet-text {
+    font-size: 13px;
+  }
+
+  .create-btn-div {
+    width: 100%;
+  }
+
+  .head-btn {
+    font-size: 15px;
+    padding: 7px 12px;
+  }
+
+  .tail-btn {
+    font-size: 15px;
+    padding: 7px 12px;
+  }
+
+  .img-div {
+    margin-bottom: 10px;
+  }
+
+  .select-currency-bet {
+    font-size: 15px;
+  }
+
+  .number-token-input {
+    font-size: 13px;
+  }
+
+  .confirm-create-bet-btn {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}

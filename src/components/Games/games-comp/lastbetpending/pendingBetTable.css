@@ -1,0 +1,57 @@
+.pending-bet-table hr {
+  margin-bottom: 15px;
+}
+
+.table-label {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.table-label span {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.blank-span {
+  color: transparent;
+}
+
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.table-data span {
+  font-weight: 500;
+}
+
+.table-data div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btc-logo {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.join-bet-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: #1493ef;
+  color: white;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 480px) {
+  .player-span {
+    display: none;
+  }
+}

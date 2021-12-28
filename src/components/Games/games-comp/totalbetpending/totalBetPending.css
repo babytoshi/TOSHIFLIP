@@ -1,0 +1,61 @@
+.total-bet-div {
+  background-color: #1493ef;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.total-bet-div h2 {
+  margin: unset;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.total-bet-label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.total-bet-dollars {
+  font-size: 35px;
+  font-weight: 900;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #f7931a;
+  padding: 5px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .total-bet-div {
+    background-color: #1493ef;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 50%;
+    margin: auto;
+  }
+
+  .total-bet-div h2 {
+    font-size: 20px;
+  }
+
+  .total-bet-label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .total-bet-dollars {
+    font-size: 22px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
